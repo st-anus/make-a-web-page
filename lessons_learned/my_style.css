@@ -1,0 +1,114 @@
+
+
+/*make box size include border & padding*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+
+body {
+  width: 85%;
+  margin: auto;
+  background-color: rgb(10, 20, 10);
+}
+
+
+.content {
+  margin-top: 50px;
+  border: 10px solid rgb(0, 200, 222);
+  border-radius: 0 50px 0 50px;
+  padding: 0 20px;
+
+  font-size: 15px;
+  font-family: ubuntu, helvetica;
+  color: rgb(220, 255, 220);
+}
+
+
+.title {
+  margin-bottom: 30px;
+  display: flex;
+}
+
+h1 {
+  width: 70%;
+
+  font-weight: 100;
+  font-size: 55px;
+  text-align: center;
+}
+
+.signature {
+  width: 30%;
+  margin: 20px 20px 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+.signature img{
+  width: 70%;
+  border-radius: 0 30px 0 30px;
+}
+
+.lesson {
+  background-color: rgb(70, 85, 70);
+
+  margin-bottom: 20px;
+  border-radius: 0 30px 0 30px;
+  border: 5px solid rgb(0, 200, 160);
+  padding: 30px;
+
+  color: rgb(160, 180, 160);
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.concept {
+  margin-bottom: 5px;
+  border: 2px solid rgb(160, 180, 160);
+  border-radius: 0 20px 0 20px;
+  padding: 10px;
+
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+.points {
+  padding-right: 20px;
+}
+
+.points.add {
+  padding-left: 20px;
+}
+
+img[src="images/selectors.png"]{
+  width: 25%;
+  float: right;
+  margin-bottom: 100px;
+  border-radius: 2px;
+}
+
+code {
+  color: rgb(0, 200, 222);
+  font-weight: bold;
+}
+
+strong {
+  font-weight: bolder;
+  font-size: 17px;
+  color: rgb(20, 0, 10);
+}
+
+
