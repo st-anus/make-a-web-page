@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Intro to Programming Nanodegree - notes by st.anus</title>
+    <link rel="stylesheet" type="text/css" href="my_style.css">
+  </head>
+
+  <body>
+    <div class="content">
+      <div class="title">
+        <h1>Intro to Programming</h1>
+        <div class="signature">
+          <img src="images/screen.png" alt="screenshot">
+          <div>
+          my <a href="https://www.udacity.com/course/nd000">Udacity
+          Nanodegree</a> notes
+          </div>
+        </div>
+      </div>
+
+      <div class="lesson">
+        <h2>Lesson 1: The Basics of the Web and HTML</h2>
+          
+        <div class="concept">
+          <h3>world wide web</h3>
+
+          <ul class="points main">
+            <li>
+              html: HyperText Markup Language - programming language to code
+              html documents (almost every web page)
+            </li>
+            <li>
+              http: HyperText Transfer Protocol - protocol userd for
+              communication between computer browser, internet and servers
+              which host sites
+            </li>
+          </ul>
+        </div>
+
+        <div class="concept">
+          <h3>html markup</h3>
+
+          <ul class="points main">
+            <li>
+              markup - code that determines what content (e.g. text) looks like
+              on a web page
+            </li>
+            <li>element:
+              <code>
+              &lt;opening tag&gt;contents&lt;/closing tag&gt;
+              </code>
+              <ul class="points add">
+                <li>
+                  either <em>inline</em> (refers to content within the
+                  line - like bold or link) or <em>block</em> (creates
+                  invisible box around the content - like paragraph)
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="concept">
+          <h3>key take-aways</h3>
+
+          <ul class="points main">
+            <li>
+              computers are (awesomly) stupid - they do what is programmed, all
+              of it and nothing but it, as long as they can understand it (bold
+              emphasis on <strong><em>correct syntax</em></strong>)
+            </li>
+            <li>
+              memorising not necessary - no point in memorising details as
+              there are too many to remember anyway (thumbs up for me and other
+              <a href="http://fishbowlexperiment.com/images/cartoon1.gif">
+              goldfish memory</a> people) 
+            </li>
+          </ul>
+        </div>
+
+        <div class="concept">
+          <h3>vocabulary (copied from udacity website)</h3>
+
+          <ul class="points main">
+            <li>
+              <b>Tag</b>
+              : An HTML tag is always contained within angled brackets. Most
+              tags have an opening tag and a closing tag. Some tags (called
+              "void" tags) do not require a closing tag (like the <code>&lt;br&gt;</code>
+              tag).
+            </li>
+            <li>
+              <b>Element</b>
+              : An HTML element refers to everything within a set of opening
+              and closing tags.
+            </li>
+            <li>
+              <b>Attribute</b>
+              : This is a property of an HTML element. For example, to set the
+              href attribute of an anchor tag to the Udacity URL, you would
+              write <code>&lt;a href="www.udacity.com"&gt;</code>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="lesson">
+        <h2>Lesson 2: Creating a Structured Document with HTML</h2>
+
+        <div class="concept">
+          <h3>structure of a document</h3>
+
+          <ul class="points main">
+            <li>
+              html is used for classification of webpage structure through its
+              syntax, rules and basic element - tag
+            </li>
+            <li>
+              dom: Document Object Model - structure tree of a document
+              organised by elements
+            </li>
+            <li>
+              css - language to define a style and thus change how elements
+              look on the page
+            </li>
+            <li>
+              good explanation in the following 
+              <a href="https://www.udacity.com/course/viewer#!/c-ud721-nd/l-3555039510/m-2596138815">video</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="concept">
+          <h3>boxifying (real word)</h3>
+
+          <ul class="points main">
+            <li>
+              separating content into visual "boxes" within the webpage in a
+              meaningful way (this part consist of these parts which consist
+              of...)
+            </li>
+            <li>
+              boxes are then the base for structuring the code into parts and
+              subparts (with use of <code>&lt;div&gt;, &lt;p&gt;, &lt;span&gt;</code>
+              and other tags)
+            </li>
+            <li>
+              best done from biggest to smallest "boxes" (good hint is to
+              scatch it out by pencil on a printout at the beginning)
+            </li>
+          </ul>
+        </div>
+
+        <div class="concept">
+          <h3>class attributes</h3>
+
+          <ul class="points main">
+            <li>
+              serve to "mark" elements (like labels on boxes)
+            </li>
+            <li>
+              attached to elements within opening tags: <code>&lt;tag
+              class:"class attribute name"&gt;</code>
+            </li>
+            <li>
+              enable mass application of style changes to all elements within
+              chosen class
+              <ul class="points add">
+                <li>
+                  <strong>extremely important</strong> in order to avoid
+                  repetition within code and thus increase efficiency of code
+                  (positive effect on speed, as well as costs and time related
+                  to project)
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="lesson">
+        <h2>Lesson 3 - Adding CSS Style to HTML Structure</h2>
+          
+        <div class="concept">
+          <h3>css: Cascading Style Sheets</h3>
+
+          <ul class="points main">
+            <li>
+              cascading means that given rules apply to the element in
+              question,as well as all its child elements, unless they have
+              separate (more specific) rules
+            </li>
+            <li>
+              short summary and reference can be found
+              <a href="https://www.udacity.com/course/viewer#!/c-ud721-nd/l-3575138706/m-3611108698">
+              here</a>
+            </li>
+            <li>
+              css fuctionality reference docu can be found
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">
+                here</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="concept">
+          <h3>adding style</h3>
+
+          <ul class="points main">
+            <li>
+              with css we can define style in a separate stylesheet file(s)
+            </li>
+            <li>
+              it can also be done within our html document or even within a
+              line, though it should be avoided
+            </li>
+            <li>
+              to add css style to html file through stylesheet, head of the
+              file has to include link to css file <code>&lt;link
+              rel="stylesheet" type="text/css" href="name of css file"&gt;
+              </code>
+              <ul class="sub_points">
+                <li>
+                  <a href="http://www.w3schools.com/tags/att_link_rel.asp">
+                  rel</a>: relationship - relationship between html file and the
+                  file we are linking to
+                </li>
+                <li>
+                  <a href="http://www.w3schools.com/tags/att_link_type.asp">
+                  type</a> - type of file we are linking to
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="concept">
+          <h3>selector</h3>
+
+          <img src="images/selectors.png" alt="examples of selectors">
+
+          <ul class="points main">
+            <li>
+              element to which defined style will be applied (<a
+              href="https://css-tricks.com/how-css-selectors-work/">more
+              info</a>)
+            </li>
+            <li>
+              application: we apply defined value (e.g. blue) to defined
+              attribute (e.g. 
+              <a href="http://meyerweb.com/eric/css/colors/">color</a>)
+              of defined selector (e.g. paragraph)
+            </li>
+            <li>
+              selectors need to make logical sense to the structure of the
+              document to ensure code efficiency (avoiding repetition)
+            </li>
+            <li>
+              example types of selectors:
+            </li>
+            <ul class="sub_points">
+              <li>
+                tag e.g. paragraph: <code>p {attribute:value;}</code>
+              </li>
+              <li>
+                class: <code>.class_name {attribute:value}</code>
+              </li>
+              <li>
+                attribute: <code>tag[attribute="value"] {attribute: value;}</code>
+                (<a href="https://css-tricks.com/attribute-selectors/">more info</a>)
+              </li>
+            </ul>
+            <li>
+              for easier orientation, each attribute/value pair is on separate
+              indented line
+            </li>
+          </ul>
+          
+        </div>
+
+        <div class="concept">
+          <h3>semantic tagging</h3>
+
+          <ul class="points main">
+            <li>
+              we should use tags that express the meaning of their content,
+              for example:
+            </li>
+            <ul class="points add">
+              <li>
+                if a text is a heading to what comes after it, we should tag it
+                <code>h{1..6}</code> rather than just increase its size, make it
+                bold and give it borders/margins
+              </li>
+              <li>
+                if something is just part of a normal paragraph and we want to
+                make it stand out by bigger size, bold font and borders <strong>but
+                it is not a logical heading to what comes after it</strong>, we
+                should do the style changes through e.g. class, but we should
+                not use <code>h</code> tag just because it comes with the style
+                changes we want
+              </li>
+            </ul>
+          </ul>
+        </div>
+
+        <div class="concept">
+          <h3>box sizing &amp; positioning</h3>
+
+          <ul class="points main">
+            <li>
+              one of the most complex concepts in css
+            </li>
+            <li>
+              all html elements are boxes and each box has 4 components
+              <ul class="points add">
+                <li>
+                  margin, border, padding, content
+                </li>
+                <li>
+                  size of each of these can be either set as number of pixels
+                  (requires often manual readjustment), a percentage of screen
+                  size
+                </li>
+                <li>
+                  most prefarable solution to box sizing (way to automize setting
+                  those 4 elements) is to set <code>box-sizing: border-box</code>
+                </li>
+              </ul>
+            </li>
+            <li>
+              boxes are positioned below each other by default, unless
+              following rule is added to the parent <code>display: flex;</code>
+            </li>
+            <li>
+              good summary video can be found
+              <a href="https://www.udacity.com/course/viewer#!/c-ud721-nd/l-3575138706/m-3642758701">here</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="concept">
+            <h3>code-test-refine cycle (from nothing to web page)</h3>
+
+          <div class="points main">
+            <ul>
+              <li>
+                a good start is with printout, where one can scatch out the
+                boxes, define some future semantic tags, list key style 'notes'
+                (from biggest to smallest)
+              </li>
+            </ul>
+            <ol>
+              <li>
+                look for natural boxes
+              </li>
+              <li>
+                look for repeated styles and semantic elements
+              </li>
+              <li>
+                write your html
+              </li>
+              <li>
+                apply styles (from biggest to smallest)
+              </li>
+              <li>
+                fix things
+              </li>
+            </ol>
+            <ul>
+              <li>
+                keep repeating 3..5 untill the product setisfies design
+                requirements
+              </li>
+              <li>
+                for testing 'on the go' and fine tuning, one can easily make
+                changes through dev tools and see the effect immediately, and
+                once satisfied, change the code in sublime
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
