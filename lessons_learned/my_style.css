@@ -17,10 +17,10 @@ body {
 
 
 .content {
-  margin-top: 50px;
-  border: 10px solid rgb(0, 200, 222);
-  border-radius: 0 50px 0 50px;
-  padding: 0 20px;
+  margin-top: 5%;
+  border: .6em solid rgb(0, 200, 222);
+  border-radius: 0 3em 0 3em;
+  padding: 0 2.4%;
 
   font-family: ubuntu, helvetica;
   color: rgb(220, 255, 220);
@@ -28,7 +28,7 @@ body {
 
 
 .title {
-  margin-bottom: 30px;
+  margin-bottom: 2%;
   display: flex;
 }
 
@@ -36,77 +36,77 @@ h1 {
   width: 70%;
 
   font-weight: 100;
-  font-size: 55px;
+  font-size: 400%;
   text-align: center;
 }
 
 .sign {
   width: 30%;
-  margin: 20px 20px 0;
+  margin: 2% 2% 0;
   text-align: center;
-  font-size: 12px;
+  font-size: 75%;
 }
 
 img[src="images/screen.png"] {
   width: 70%;
-  border-radius: 0 30px 0 30px;
+  border-radius: 0 2.5em 0 2.5em;
 }
 
 .lesson {
   background-color: rgb(70, 85, 70);
 
-  margin-bottom: 20px;
-  border-radius: 0 30px 0 30px;
-  border: 5px solid rgb(0, 200, 160);
-  padding: 30px;
+  margin-bottom: 2%;
+  border-radius: 0 2.5em 0 2.5em;
+  border: .4em solid rgb(0, 200, 160);
+  padding: 2.4%;
 
   color: rgb(160, 180, 160);
 }
 
 h2 {
   margin-top: 0;
-  margin-bottom: 30px;
-  font-size: 30px;
+  margin-bottom: 3%;
+  font-size: 200%;
 }
 
 .concept {
-  margin-bottom: 5px;
-  border: 2px solid rgb(160, 180, 160);
-  border-radius: 0 20px 0 20px;
-  padding: 10px;
+  margin-bottom: .6%;
+  border: .15em solid rgb(160, 180, 160);
+  border-radius: 0 1.5em 0 1.5em;
+  padding: 1%;
 
-  font-size: 16px;
+  font-size: 100%;
   color: rgb(0, 0, 0);
 }
 
 h3 {
   margin-top: 0;
-  font-size: 22px;
+  font-size: 140%;
 }
 
 .points {
-  padding-right: 20px;
+  padding-right: 2%;
 }
 
-.points.add {
-  padding-left: 20px;
+.points .add {
+  padding-left: 2%;
 }
 
-img[src="images/selectors.png"] {
+img[src="images/selectors.png"]{
   width: 25%;
   float: right;
-  margin-bottom: 100px;
-  border-radius: 2px;
+  border-radius: 1%;
 }
 
 code {
   color: rgb(0, 200, 222);
   font-weight: bold;
+  font-size: 120%
 }
 
 strong {
   font-weight: bolder;
-  font-size: 17px;
+  font-size: 108%;
   color: rgb(20, 0, 10);
 }
 
